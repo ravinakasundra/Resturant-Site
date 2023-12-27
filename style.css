@@ -1,0 +1,138 @@
+ body {
+     margin: 0px;
+     padding: 0px;
+     background: url(d1f427e88dde5cc6fb1a6eae2f56a700.webp);
+     background-repeat: no-repeat;
+     background-size: 1400px 700px;
+     color: rgb(245, 241, 241);
+     font-family: 'Young Serif', serif;
+     background-color: rgb(17, 3, 0);
+ }
+
+ .left {
+     display: inline-block;
+     position: absolute;
+     left: 34px;
+     top: 20px;
+ }
+
+ .left img {
+     width: 70px;
+ }
+
+ .left div {
+     line-height: 17px;
+     text-align: center;
+     font-size: 21px;
+     text-decoration: solid;
+ }
+
+ .mid {
+     display: block;
+     width: 43%;
+     margin: 12px auto;
+ }
+
+ .right {
+     position: absolute;
+     display: inline-block;
+     right: 34px;
+     top: 20px;
+ }
+
+ .navbar {
+     display: inline-block;
+ }
+
+ .navbar li {
+     display: inline-block;
+     font-size: 25px;
+ }
+
+ .navbar li a {
+     color: white;
+     text-decoration: none;
+     padding: 34px 23px;
+ }
+
+ .navbar li a:hover,
+ .navbar li a .active {
+     color: rgb(59, 89, 109);
+     text-decoration: underline;
+
+ }
+
+ .btn {
+     font-family: 'Young Serif', serif;
+     background-color: black;
+     color: white;
+     padding: 6px 14px;
+     border: none;
+     border-radius: 15px;
+     cursor: pointer;
+     font-size: 20px;
+ }
+
+ .btn:hover {
+     background-color: rgb(59, 89, 109);
+ }
+
+ .container {
+     margin: 160px 60px;
+     padding: 9px;
+     width: 40%;
+     text-align: center;
+ }
+
+ .secondpage {
+     position: relative;
+     top: 130px;
+     height: 500px;
+     padding-top: 30px;
+     padding-bottom: 50px;
+     padding-left: 15px;
+ }
+
+ .heading div {
+     text-align: center;
+     font-size: 30px;
+     font-weight: 400;
+     display: flex;
+     justify-content: center;
+ }
+
+ .secondbody {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .listmenu {
+     border-radius: 20px;
+     box-shadow: 5px 5px 5px 5px rgb(122, 49, 49);
+     height: 440px;
+     margin: 20px 30px;
+     text-align: center;
+     font-size: 22px;
+     background-color: rgb(139, 99, 99);
+ }
+
+ .cardimg {
+     width: 280px;
+     height: 170px;
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 100px;
+ }
+
+ .cards-head {
+     margin: 10px;
+     color: black;
+ }
+
+ .card-desc {
+     font-size: 14px;
+     text-align: left;
+     width: 260px;
+     padding: 10px;
+     line-height: 1.5;
+     color: black;
+ }
